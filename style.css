@@ -26,3 +26,13 @@
 .btn-custom {
   background-color: #a8e6fa;
 }
+.btn-custom:hover {
+  background-color: white;
+  border-style: solid;
+  border-color: #a8e6fa;
+  box-shadow: 0px 0px 22px -3px #a8e6fa;
+}
+
+.fab:hover {
+  color: #a8e6fa;
+}
