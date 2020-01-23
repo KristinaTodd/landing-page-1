@@ -1,0 +1,13 @@
+.name {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.jumbotron {
+  background: rgb(59,143,149);
+  background: linear-gradient(122deg, rgba(59,143,149,1) 8%, rgba(168,230,250,1) 32%, rgba(127,179,255,1) 65%, rgba(22,82,118,1) 99%);
+  margin-bottom: 1rem;
+}
+
