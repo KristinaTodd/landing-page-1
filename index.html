@@ -13,29 +13,32 @@
 </head>
 
 <body>
-  <header class="row">
-    <div class="col-12">
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand name">KristinaTodd</a>
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </nav>
-    </div>
-    <div class="col-12">
-      <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">My name is Kristina and I'm currently enrolled with Boise Codeworks where I'm learning to be a
-          sfotware developer.</p>
-        <hr class="my-4">
-        <p>Click "Learn more" below to see a full list of the different projects I'm working on and what I'm learning in
-          class.</p>
-        <a class="btn btn-primary btn-lg" href="https://github.com/KristinaTodd" role="button">Learn more</a>
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand name">KristinaTodd</a>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
+      </div>
+      <div class="col-12">
+        <div class="jumbotron">
+          <h1 class="display-4">Hello, world!</h1>
+          <p class="lead">My name is Kristina and I'm currently enrolled with Boise Codeworks where I'm learning to be a
+            sfotware developer.</p>
+          <hr class="my-4">
+          <p>Click "Learn more" below to see a full list of the different projects I'm working on and what I'm learning
+            in
+            class.</p>
+          <a class="btn btn-primary btn-lg" href="https://github.com/KristinaTodd" role="button">Learn more</a>
+        </div>
       </div>
     </div>
   </header>
-  <section>
+  <section class="container-fluid">
     <div class="row">
       <div class="col-12 text-center">Current Course Progression</div>
       <div class="col-3"></div>
@@ -44,10 +47,15 @@
           aria-valuemax="100">5%</div>
       </div>
       <div class="col-3"></div>
-      <div class="col-12 pb-2"></div>
+      <div class="col-12 pb-2">
+        <hr class="my-4">
+      </div>
     </div>
-  </section>
-  <section>
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>Featured Projects</h1>
+      </div>
+    </div>
     <div class="row row-cols-1 row-cols-md-2 mx-auto">
       <div class="col my-2 p-1">
         <div class="card card-shadow">
@@ -55,7 +63,7 @@
             <h5 class="card-title">Moody Kittens</h5>
             <p class="card-text">Here's a game I built as my final project in the Codeworks' "Your Last Intro to
               Programming Course" on Udemy. I was able to build out all of the functionality of it and add my own.</p>
-            <a href="https://kristinatodd.github.io/moody-kittens/" class="btn btn-primary">See it!</a>
+            <a href="https://kristinatodd.github.io/moody-kittens/" class="btn btn-custom">See it!</a>
           </div>
         </div>
       </div>
@@ -65,7 +73,7 @@
             <h5 class="card-title">Contacts List</h5>
             <p class="card-text">This was the second project Codeworks' "Your Last Intro to Programming Course" on
               Udemy. You could use this as a locally stored contact list.</p>
-            <a href="https://kristinatodd.github.io/contacts/" class="btn btn-primary">See it!</a>
+            <a href="https://kristinatodd.github.io/contacts/" class="btn btn-custom">See it!</a>
           </div>
         </div>
       </div>
@@ -76,7 +84,7 @@
             <p class="card-text">This was a code-along project on Codeworks' "Your Last Intro to Programming Course" on
               Udemy. It's the'first project I've done. I was able to add some of my own functionality.
             </p>
-            <a href="https://kristinatodd.github.io/BalloonPop/" class="btn btn-primary">See it!</a>
+            <a href="https://kristinatodd.github.io/BalloonPop/" class="btn btn-custom">See it!</a>
           </div>
         </div>
       </div>
@@ -86,22 +94,22 @@
             <h5 class="card-title">Work in Progress</h5>
             <p class="card-text">This is a placeholder for another project after I complete it. I will also include a
               link to it once available. For now here is a link to my github.</p>
-            <a href="https://kristinatodd.github.io/kristinatodd/" class="btn btn-primary">See it!</a>
+            <a href="https://kristinatodd.github.io/kristinatodd/" class="btn btn-custom">See it!</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <footer>
-    <div class="row">
-      <div class="col-12 name text-white ml-2">Kristina Todd</div>
-      <div class="col-12 text-white ml-2">Web Developer</div>
 
+    <div class="row m-auto end-nav">
+      <div class="col-6 name text-white">KristinaTodd</div>
+      <div class="col-6"></div>
+      <div class="col-6 text-white">Web Developer</div>
+      <div class="col-6"></div>
     </div>
 
-  </footer>
 
+  </section>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>

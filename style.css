@@ -2,8 +2,9 @@
   outline: solid;
 } */
 
-footer {
-  background-color: #165276;
+.end-nav {
+  background-color: #1a6594;
+  border-radius: .3rem;
 }
 
 .name {
@@ -21,4 +22,8 @@ footer {
 
 .card-shadow:hover {
   box-shadow: 0px 0px 22px -3px rgb(158, 213, 235);
+}
+
+.btn-custom {
+  background-color: #a8e6fa;
 }
